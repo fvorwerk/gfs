@@ -1,0 +1,17 @@
+<div id="secondary" class="widget-area" role="complementary">
+				<aside id="recent-comments-3" class="widget widget_recent_comments"><h3 class="widget-title">Neuste Kommentare (Nicht in Jekyll möglich)</h3>
+
+					<ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Wainer Rinkler</span> bei <a href="https://wordpress.felix-vorwerk.de/2017/05/31/18/#comment-3">Meddl Loide</a></li><li class="recentcomments"><span class="comment-author-link">Lustlord1510</span> bei <a href="https://wordpress.felix-vorwerk.de/2017/05/31/froeliche-weinachde/#comment-2">Fröliche Weinachde</a></li></ul></aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h3 class="widget-title">Neuste Beträge</h3>
+						<ul>
+
+
+							<ul>
+							  {% for post in site.posts %}
+							    <li>
+							      <a href="{{ post.url }}">{{ post.title }}</a>
+							    </li>
+							  {% endfor %}
+							</ul>
+
+				</ul>
+		</aside>			</div><!-- #secondary -->
